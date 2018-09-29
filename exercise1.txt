@@ -1,0 +1,54 @@
+1.
+
+store "acceleration"with any value
+store "massa" with any value
+store "area" without any value
+
+calculate "acceleration" times "massa"
+set "area" value with calcution result
+ 
+Display"area"
+
+2.Tahun Kabisat
+
+Tahun Kabisat 
+Store 'tahun' to 2018
+
+CALCULATE 'tahun' mod 4
+SET 'hasil1' as a result
+CALCULATE 'tahun' mod 100
+SET 'hasil2'as a result
+CALCULATE 'tahun' mod 400
+SET 'hasil3' as a result
+
+IF 'hasi1' = 0 AND 'hasi2' = 0 <
+    DISPLAY 'KABISAT'
+ELSE IF 'hasil1 = 0 AND 'hasil2' = 0 AND 'hasil3' = 0
+    DISPLAY 'KABISAT'
+ELSE
+    DISPLAY 'TIDAK KABISAT'
+
+
+
+
+3.
+
+STORE "full level" with 0
+
+WHILE "full level " < 20
+    ADD "full level" by 1
+
+Display "ready for wash"
+
+
+
+4.
+
+store "siswa" with 0
+while "siswa" < 40
+    ADD "kuku siswa" by 1
+
+    IF "kuku panjang" 
+        DO "Dapat Hukuman"
+    IF 
+    Do "Dapat Reward"
