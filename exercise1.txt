@@ -1,48 +1,91 @@
-1.
 
-store "acceleration"with any value
-store "massa" with any value
-store "area" without any value
+1. NEWTON SECOND LAW
+====================================================
 
-calculate "acceleration" times "massa"
-set "area" value with calcution result
- 
-Display"area"
-
-2.Tahun Kabisat
-
-Tahun Kabisat 
-Store 'tahun' to 2018
-
-CALCULATE 'tahun' mod 4
-SET 'hasil1' as a result
-CALCULATE 'tahun' mod 100
-SET 'hasil2'as a result
-CALCULATE 'tahun' mod 400
-SET 'hasil3' as a result
-
-IF 'hasi1' = 0 AND 'hasi2' = 0 <
-    DISPLAY 'KABISAT'
-ELSE IF 'hasil1 = 0 AND 'hasil2' = 0 AND 'hasil3' = 0
-    DISPLAY 'KABISAT'
-ELSE
-    DISPLAY 'TIDAK KABISAT'
+ALGORITMA :
+===========
+1. Diketahui sebuah nilai m adalah 600 dan nilai a adalah 2
+2. Kalikan nilai m dengan nilai a
+3. Menampilkan hasil perhitungan
 
 
+PSEUDOCODE :
+============
+STORE "m" with number 600
+STORE "a" with number 2
+STORE "f" without any value
+
+CALCULATE "m" times "a"
+SET "f" value with calculation result
+
+DISPLAY "f"
 
 
-3.
+2. TAHUN KABISAT
+====================================================
 
-STORE "full level" with 0
+ALGORITMA :
+===========
+1. Simpan angka tahun
 
-WHILE "full level " < 20
-    ADD "full level" by 1
+2. Diketahui ada 3 nilai untuk pembagi angka tahun adalah a = 4, b = 100, c = 400
 
-Display "ready for wash"
+3. Angka tahun akan habis jika dibagi dengan nilai a dan tidak habis jika dibagi dengan nilai b
+	3a. Maka tampilkan display tahun kabisat
+	3b. Jika tidak sesuai dengan step 3, lanjutkan kedalam kondisi step 4 berikut 
+
+4. Angka tahun akan habis dibagi nilai a dan akan habis dibagi nilai b dan akan habis dibagi nilai c
+	4a. Maka tampilkan display sebagai tahun kabisat
+
+5. Jika tidak sesuai dengan step 4, maka tampilkan display bukan tahun kabisat
+
+
+PSEUDOCODE :
+============
+STORE "year" with any value
+
+STORE "a" with number 4
+STORE "b" with number 100
+STORE "c" with number 400
+
+CALCULATE if "year" mod "a" equals to 0 and "year" mod "b" not equals to 0 then
+  DISPLAY "tahun kabisat"
+  
+CALCULATE else if "year" mod "a" equals to 0 and "year" mod "b" equals to 0 and "year" mod "c" equals to 0 then
+  DISPLAY "tahun kabisat"
+
+else DISPLAY with "bukan tahun kabisat"
 
 
 
-4.
+3. LAUNDRY DAY 
+====================================================
+
+ALGORITMA :
+===========
+1. Masukan nilai jumlah baju adalah 20
+2. Masukan nilai batas awal adalah 0
+3. Masukkan satu per satu pakaian kedalam mesin cuci dengan membuat perhitungan counter +1 dimulai dari nilai awal di step 2 hingga batas jumlah baju di step 1
+4. Tampilkan urutan memasukan baju
+4. Jika baju sudah masuk semua kedalam mesin cuci, maka nyalakan mesin cuci dengan menampilkan step 4 dan menampilkan MESIN SIAP DINYALAKAN
+
+
+PSEUDOCODE :
+============
+STORE "baju" with number 20
+STORE "awal" with number 0
+
+While "awal" smaller than "baju"
+SET counter "awal" added by "1"
+DISPLAY Order by "awal"
+
+if "awal" equals to "baju"
+DISPLAY "Mesin Cuci Siap Dinyalakan"
+
+
+
+4.Periksa Kuku
+==============
 
 store "siswa" with 0
 while "siswa" < 40
